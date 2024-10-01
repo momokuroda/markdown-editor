@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "scripts": {
         "start": "echo 'Hello! package.json'",
-        "build": "webpack --mode=production"
+        "build": "webpack --mode=production",
+        "dev": "webpack --mode development"
     },
     "dependencies": {
         "@types/react": "^18.3.10",
